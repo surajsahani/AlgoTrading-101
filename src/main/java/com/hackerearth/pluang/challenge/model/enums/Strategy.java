@@ -1,5 +1,4 @@
-package com.example.algotrading.model.enums;
-
+package com.hackerearth.pluang.challenge.model.enums;
 
 public enum Strategy {
 

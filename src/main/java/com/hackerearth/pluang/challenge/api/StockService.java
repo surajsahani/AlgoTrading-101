@@ -1,10 +1,8 @@
-package com.example.algotrading.api;
+package com.hackerearth.pluang.challenge.api;
 
+import com.hackerearth.pluang.challenge.model.Response;
 
 import java.time.LocalDate;
-
-import com.example.algotrading.model.Response;
-
 
 public interface StockService {
 

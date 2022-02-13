@@ -1,6 +1,8 @@
-package com.example.algotrading.rest;
+package com.hackerearth.pluang.challenge.rest;
 
-
+import com.hackerearth.pluang.challenge.api.StockService;
+import com.hackerearth.pluang.challenge.model.Response;
+import com.hackerearth.pluang.challenge.model.Stock;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -9,9 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
-
-import com.example.algotrading.api.StockService;
-import com.example.algotrading.model.Response;
 
 @RestController
 @RequestMapping("api/v1")

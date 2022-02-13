@@ -1,7 +1,7 @@
-package com.example.algotrading.model;
-
+package com.hackerearth.pluang.challenge.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.hackerearth.pluang.challenge.model.enums.Strategy;
 import lombok.Data;
 
 import java.math.BigDecimal;

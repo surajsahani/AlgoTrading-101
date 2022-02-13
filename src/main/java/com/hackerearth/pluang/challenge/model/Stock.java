@@ -1,5 +1,4 @@
-package com.example.algotrading.model;
-
+package com.hackerearth.pluang.challenge.model;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonProperty;

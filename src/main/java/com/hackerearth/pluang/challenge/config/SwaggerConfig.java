@@ -1,5 +1,4 @@
-package com.example.algotrading.config;
-
+package com.hackerearth.pluang.challenge.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

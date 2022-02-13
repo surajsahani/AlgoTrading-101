@@ -1,10 +1,10 @@
-package com.example.algotrading;
+package com.hackerearth.pluang.challenge;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class AlgotradingApplicationTests {
+class ChallengeApplicationTests {
 
 	@Test
 	void contextLoads() {

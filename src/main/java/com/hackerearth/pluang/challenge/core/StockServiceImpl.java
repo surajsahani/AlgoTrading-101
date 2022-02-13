@@ -1,18 +1,15 @@
-package com.example.algotrading.core;
+package com.hackerearth.pluang.challenge.core;
 
-
-
+import com.hackerearth.pluang.challenge.api.StockService;
+import com.hackerearth.pluang.challenge.model.Response;
+import com.hackerearth.pluang.challenge.model.Stock;
+import com.hackerearth.pluang.challenge.model.enums.Strategy;
+import com.hackerearth.pluang.challenge.repository.StockRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
 import java.util.Optional;
-
-import com.example.algotrading.api.StockService;
-import com.example.algotrading.model.Response;
-import com.example.algotrading.model.Stock;
-import com.example.algotrading.model.enums.Strategy;
-import com.example.algotrading.repository.StockRepository;
 
 @Service
 public class StockServiceImpl implements StockService {

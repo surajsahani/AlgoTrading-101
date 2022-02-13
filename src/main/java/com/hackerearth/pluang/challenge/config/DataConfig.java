@@ -1,13 +1,12 @@
-package com.example.algotrading.config;
+package com.hackerearth.pluang.challenge.config;
 
-
-import com.example.algotrading.model.Stock;
-import com.example.algotrading.repository.StockRepository;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.exc.StreamReadException;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.DatabindException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.hackerearth.pluang.challenge.model.Stock;
+import com.hackerearth.pluang.challenge.repository.StockRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
